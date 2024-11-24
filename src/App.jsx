@@ -45,7 +45,7 @@ function App() {
             <h2 className='text-center mt-5'>Search Engine by using Unplash Api</h2>
             <form action="" className='d-flex my-4' onSubmit={onsubmithandler}>
               <input type='text' placeholder='Search any thing here.....' className='form-control rounded-0 rounded rounded-start-5 py-3' value={search} onChange={(e) => setSearch(e.target.value)} />
-              <button className='btn btn-primary rounded-0 rounded rounded-end-5 py-3 w-25'>search</button>
+              <button className='btn btn-warning rounded-0 rounded rounded-end-5 py-3 w-25'>search</button>
             </form>
           </Col>
           {error && <p className='text-danger text-center'>No results found. please search with another keyword</p>}
